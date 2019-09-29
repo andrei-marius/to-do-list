@@ -1,0 +1,24 @@
+button {
+    cursor: pointer;
+    border: none;
+    padding: 5px 5px;
+    color: white;
+    background-color: steelblue;
+    border-radius: 5%;
+}
+
+button:hover{
+    background-color: lightsteelblue;
+}
+
+form {
+    margin-top: 3em;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+article {
+    margin-bottom: 2.5em;
+}

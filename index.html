@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1>To do list</h1>
+
+    <div id="container">
+            <template>
+                <article class="task">
+                    <h3></h3>
+                    <button class="remove">Remove task</button>
+                    <button class="edit">Edit task</button>
+                </article>
+            </template>
+        </div>
+
+        <form class="addForm" action="">
+                <input type=text name="task" placeholder="Write a task here" required>
+                <button type="submit" name="submit">Add new task</button>
+        </form>
+
+        <form class="editForm" action="">
+                <input type=text name="task" placeholder="For future edits" required>
+                <input type="hidden" name="id">
+                <button type="submit" name="submit">Edit task</button>
+        </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
